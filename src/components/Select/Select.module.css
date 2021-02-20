@@ -1,0 +1,17 @@
+.select .main{
+    border: 2px solid black;
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+}
+
+.items{
+    position: absolute;
+    border: 1px solid black;
+    width: 80px;
+}
+
+.item.selected{
+    background-color: #61dafb;
+    color: white;
+}
