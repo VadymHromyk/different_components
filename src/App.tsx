@@ -16,7 +16,7 @@ const items: ItemType[] = [
 
 export default function App() {
 
-    const [titleValue, setTitleValue] = useState<number>()
+    const [titleValue, setTitleValue] = useState<number>(0)
 
     const onItemChange = (value: number) => setTitleValue(value)
 
